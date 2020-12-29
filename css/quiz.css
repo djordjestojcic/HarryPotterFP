@@ -1,0 +1,158 @@
+.question{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: Harry P;
+    color:whitesmoke
+  }
+  .answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+    color:whitesmoke;
+    
+  }
+  .answers label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  button{
+    font-family: 'Work Sans', sans-serif;
+      font-size: 22px;
+      background-color:#c7b38b;
+      color: #fff;
+      border: 0px;
+      border-radius: 3px;
+      padding: 20px;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+  button:hover{
+      background-color: #873436;
+  }
+
+  .slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .active-slide{
+    opacity: 1;
+    z-index: 2;
+  }
+  .quiz-container{
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+  }
+  #quiz1{
+      border:1px solid;
+      border-radius: 3px;
+      padding:2rem;
+      background-image: url(../img/gif.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #results{
+    color:whitesmoke;
+  }
+  #refresh{
+    display: none;
+    background-color: none;
+    color:whitesmoke;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container11 {
+    position: relative;
+    padding-top: 70px;
+  }
+  
+  /* Hide the images by default */
+  .slajd {
+    display: none;
+    height:500px;
+    width:100%;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .previous,
+  .nextt {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .nextt {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .previous:hover,
+  .nextt:hover {
+    background-color: whitesmoke;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 70px;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column1 {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    height:100px;
+    width:100%;
+  }
+  
+  .active1,
+  .demo:hover {
+    opacity: 1;
+    height:100px;
+  }

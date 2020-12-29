@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Harry Potter Fan Page</title>
+  <link rel="shortcut icon" href="https://cdn.popcultcha.com.au/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/h/a/harry-potter-3d-chrome-logo-emblem.png" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.css" rel="stylesheet">
+  <link href="css/quiz.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Dinamicko ispisivanje Navigacije i Headera -->
+  <script type='text/javascript' src='nav.js'></script>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto" id="quizC">
+
+          <h3 style='font-family:Harry P;font-size:50px;color:black;'>Test your knowledge</h3><br>
+          <div id='quiz1'>
+            <div class="quiz-container">
+              <div id="quiz"></div>
+            </div>
+              <button id="previous">Previous Question</button>
+              <button id="next">Next Question</button>
+              <button id="submit">Submit Quiz</button>
+              <button id="refresh" onclick='history.go(0)' class="fa">&#xf021;</button>
+              <div id="results"></div>
+          </div> 
+
+          <br><hr>
+          <div class="container11">
+            <h3 style="font-family:Harry P;font-size:50px;color:black;">Some memorable pictures</h3><br>
+            <!-- Full-width images with number text -->
+            <div class="slajd">
+              <div class="numbertext">1 / 6</div>
+                <img src="img/quiz/1.jpg" style="width:100%" height="500px">
+            </div>
+
+            <div class="slajd">
+              <div class="numbertext">2 / 6</div>
+                <img src="img/quiz/2.jpg" style="width:100%" height="500px">
+            </div>
+
+            <div class="slajd">
+              <div class="numbertext">3 / 6</div>
+                <img src="img/quiz/3.jpg" style="width:100%" height="500px">
+            </div>
+          
+            <div class="slajd">
+              <div class="numbertext">4 / 6</div>
+                <img src="img/quiz/4.jpg" style="width:100%" height="500px">
+            </div>
+          
+            <div class="slajd">
+              <div class="numbertext">5 / 6</div>
+                <img src="img/quiz/5.jpg" style="width:100%" height="500px">
+            </div>
+          
+            <div class="slajd">
+              <div class="numbertext">6 / 6</div>
+                <img src="img/quiz/6.jpg" style="width:100%" height="500px">
+            </div>
+          
+            <a class="previous" onclick="plusSlajd(-1)">&#10094;</a>
+            <a class="nextt" onclick="plusSlajd(1)">&#10095;</a>
+          
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <div class="row">
+              <div class="column1">
+                <img class="demo cursor" src="img/quiz/1.jpg" style="width:100%" onclick="currentSlajd(1)" alt="The Woods">
+              </div>
+              <div class="column1">
+                <img class="demo cursor" src="img/quiz/2.jpg" style="width:100%" onclick="currentSlajd(2)" alt="Cinque Terre">
+              </div>
+              <div class="column1">
+                <img class="demo cursor" src="img/quiz/3.jpg" style="width:100%" onclick="currentSlajd(3)" alt="Mountains and fjords">
+              </div>
+              <div class="column1">
+                <img class="demo cursor" src="img/quiz/4.jpg" style="width:100%" onclick="currentSlajd(4)" alt="Northern Lights">
+              </div>
+              <div class="column1">
+                <img class="demo cursor" src="img/quiz/5.jpg" style="width:100%" onclick="currentSlajd(5)" alt="Nature and sunrise">
+              </div>
+              <div class="column1">
+                <img class="demo cursor" src="img/quiz/6.jpg" style="width:100%" onclick="currentSlajd(6)" alt="Snowy Mountains">
+              </div>
+            </div>
+          </div>  
+          <script type='text/javascript'src='imgSlider.js'></script>  
+          
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <script type="text/javascript" src='footer.js'></script>
+  <script type="text/javascript" src='slideshow.js'></script>
+  <script type='text/javascript' src="quiz.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
